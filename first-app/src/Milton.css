@@ -1,0 +1,82 @@
+/* Milton styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --red:#d01c28;
+    --gray:#2e2e2e;
+    --blue:#206ea5
+}
+*{
+margin: 0;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+button{
+    all:unset;
+    padding:6px 16px;
+    background-color:var(--red);
+    height:32px;
+    color:white;
+    font-weight: 500px;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:72px;
+    background-color: #eab8ff;
+}
+nav ul{
+    list-style: none;
+display: flex;
+gap:24px;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius:5px  ;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+}
+.content{
+    padding-left:  150px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.main-content h1{
+    padding-top: 50px;
+    font-weight:800px;
+    font-size:40px;
+    line-height: 50px;
+}
+.main-content p{
+    font-weight:600px;
+    color:var(--blue);
+}
+.main-btn{
+    display: flex;
+    gap:40px;
+}
+.sec-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+}
+.shop{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
